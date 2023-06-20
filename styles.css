@@ -124,8 +124,8 @@ h1 {
   
     }
   }
-img-container{
-  display: flex;
+.img-container{
+  display:flex;
   flex-wrap: wrap;
 }
 video{
@@ -152,4 +152,15 @@ footer{
   align-items: center;
   gap: 5px;
   padding: 10px;
+}
+img{
+  height: 200px;
+}
+main{
+  display: flex;
+  justify-content:center;
+
+}
+.greeting{
+  text-align: center;
 }
